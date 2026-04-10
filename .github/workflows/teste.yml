@@ -1,0 +1,11 @@
+name: Teste Simples
+
+on: [push]
+
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Mostrar mensagem
+        run: echo "Olá turma, o GitHub Actions funcionou!"
