@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-       name: Mostrar mensagem
+      - name: Mostrar mensagem
         run: echo "Olá turma, o GitHub Actions funcionou!"
